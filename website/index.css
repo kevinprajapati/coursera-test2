@@ -1,0 +1,114 @@
+j*{
+	margin: 0;
+	padding: 0;
+}
+#navbar{
+	display: flex;
+	align-items: center;
+
+}
+
+#logo{
+	margin: 12px 34px;
+
+
+}
+#logo img{
+	height: 150px;
+	margin: 8px 5px;
+
+}
+#navbar{
+	position: relative;
+}
+#navbar ul{
+	display: flex;
+	font-family: sans-serif;
+}
+#navbar::before{
+	content: "";
+	background-color: black;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: .4;
+}
+#navbar ul li{
+	color: white;
+	list-style: none;
+	font-size: 1.3em;
+}
+#navbar ul li a{
+	color: white;
+	display: block;
+	padding: 3px 22px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+#navbar ul li a:hover{
+	color: black;
+	background-color: white;
+
+}
+#Home{
+	display: flex;
+	flex-direction: column;
+	padding:3px 200px;
+	
+	justify-content: center;
+	align-items: center;
+
+}
+#Home::before{
+	content: "";
+	background:url("old-1130731.jpg") no-repeat center center/cover;
+	position: absolute;
+    height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: .89;
+}
+#Home h1{
+	color: white;
+	text-align: center;
+	
+}
+#Home p{
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+
+
+}
+.services-container{
+	margin: 345px;
+	display: flex;
+
+}
+.services-container .box{
+	border: 2px solid brown;
+}
+.services-container .box img{
+	height: 100px;
+
+
+}
+.h-primary{
+	font-size: 2.8em;
+	padding-bottom: 2px;
+	
+
+
+}
+.h-secondary{
+	font-size: 2.8em;
+}
+.btn{
+	padding: 6px 20px;
+	border: 1px solid white;
+	background-image: linear-gradient(red,maroon);
+	color: white;
+	cursor: pointer;
+	border-radius: 8px;
+}
