@@ -81,16 +81,25 @@ j*{
 
 
 }
-.services-container{
-	margin: 345px;
+#Services{
+	margin: 30px;
 	display: flex;
 
+
 }
-.services-container .box{
-	border: 2px solid brown;
+#Services .box{
+	border: 1px solid brown;
+
+
 }
-.services-container .box img{
-	height: 100px;
+#Services .box img{
+	display: block;
+	height: 50px;
+	margin: auto;
+
+
+}
+
 
 
 }
