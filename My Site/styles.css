@@ -9,7 +9,7 @@ h1{
     margin:50px auto 0;
     width: 20%;
     font-family: 'Satisfy',cursive;
-    font-size: 400%;
+    font-size: 200%;
     color: #66bfbf;
 }
 .p1{
@@ -40,37 +40,81 @@ h1{
     top: 50px;
   
 }
-.logo1{
-    border-radius: 50%;
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-.logo2{
-    border-radius: 50%;
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-.logo{
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 10px auto 0;
-    
-}
-a{
-    color:#11999e ;
-    text-decoration: none;
-}
-a:hover{
-    color:#c01e1e;
-}
+
+
 h2{
     color:#66bfbf;
 }
 h3{
     color: #11999e;
+}
+.profile{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 160px;
+    text-align: left;
+   
+}
+.logo{
+    width: 30%;
+}
+.logo1{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.logo2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;;
+
+}
+hr{
+    border-style: dotted;
+    width: 10%;
+    height:2px;
+    border-width: 10px;
+    border-top: 0;
+    border-color:gray;
+    
+}
+.contact-me{
+    margin-top: 100px;
+}
+.ski{
+    margin-top: 100px;
+}
+.contact-me{
+    width: 50%;
+    margin: 100px auto;
+}
+.btn{
+    color: black;
+    padding: 2px 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 15px
+}
+.bottom-container a{
+    margin: 40px 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+.copy{
+    margin-top: 10px;
+}
+.bottom-container a:hover{
+    color: turquoise;
 }
