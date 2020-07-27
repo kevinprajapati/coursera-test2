@@ -1,0 +1,114 @@
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+
+}
+.h1-title{
+    font-family: 'Open Sans-Thin ',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container{
+    padding:3%;
+}
+
+.container .navbar{
+    padding:0 0 3rem ;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1rem;
+}
+.download-btn{
+    margin:5% 3% 5% 0 ;
+}
+#brand{
+    font-size: 2rem;
+}
+.title-image{
+    width: 40%;
+    transform: rotate(25deg);
+    margin-left: 120px;
+    margin-top: 30px;
+   
+    
+}
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    
+   
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.feature-box h3{
+    font-weight:bold ;
+}
+.feature-box p{
+    color: gray;
+}
+.icon{
+    color: #ff4c68;
+    padding-bottom: 1rem;
+}
+.icon:hover{
+    color: yellowgreen;
+}
+#testimonials{
+
+    text-align: center;
+    background-color:#ff4c68 ;
+    color: #fff;
+
+}
+#testimonials h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimon-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 20px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.row{
+    padding-top: 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+#footer{
+    text-align: center;
+    background-color:#ff4c68 ;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+
